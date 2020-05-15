@@ -10,7 +10,7 @@
   # - demo_username:         - e.g.: "username"
   # - demo_password:         - e.g.: "password"
   # - demo_token:            - e.g.: "OpenShift token"
-  - openshift_login_url: "{--server=https://{ demo_hosting_api_fqdn }}:6443"
+  - openshift_login_url: "{{ demo_hosting_api_fqdn }}"
   - openshift_user: "{{ demo_username }}"
   - openshift_token: "{{ demo_token }}"
   roles:
