@@ -1,3 +1,0 @@
-[submodule "ansible-stacks"]
-	path = ansible-stacks
-	url = https://github.com/rht-labs/ansible-stacks
